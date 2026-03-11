@@ -52,11 +52,30 @@
         </div>
     </nav>
 
-    <!-- Hero -->
+    <!-- Hero Image -->
     <section class="pt-16 relative">
-        <div class="w-full h-72 md:h-96 bg-navy-700 flex flex-col items-center justify-center text-gray-500">
-            <svg class="w-20 h-20 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-            <p class="text-xl font-semibold text-gray-400">Coming Soon</p>
+        <div class="w-full h-72 md:h-[28rem] overflow-hidden relative">
+            <img src="../images/clint-drive-4.jpg" alt="Clint Drive Retail Portfolio — Belton, MO" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/40 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 px-6 pb-8 md:pb-12">
+                <div class="max-w-4xl mx-auto">
+                    <div class="inline-block px-3 py-1 bg-gold-500/20 text-gold-400 text-xs font-bold rounded-full mb-3 backdrop-blur">RETAIL PORTFOLIO</div>
+                    <h1 class="text-3xl md:text-5xl font-extrabold mb-2">Clint Drive</h1>
+                    <p class="text-lg text-gold-400">8413–8425 Clint Dr · Belton, MO 64012</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="px-6 -mt-4 relative z-10">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div class="rounded-lg overflow-hidden aspect-[4/3]"><img src="../images/clint-drive-1.jpg" alt="Clint Drive building exterior" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer"></div>
+                <div class="rounded-lg overflow-hidden aspect-[4/3]"><img src="../images/clint-drive-2.jpg" alt="Clint Drive retail strip with tenants" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer"></div>
+                <div class="rounded-lg overflow-hidden aspect-[4/3]"><img src="../images/clint-drive-3.jpg" alt="Clint Drive building front view" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer"></div>
+                <div class="rounded-lg overflow-hidden aspect-[4/3]"><img src="../images/clint-drive-4.jpg" alt="Clint Drive Quest Diagnostics building" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer"></div>
+            </div>
         </div>
     </section>
 
@@ -67,16 +86,65 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
                 Back to Portfolio
             </a>
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-3">Clint Drive</h1>
-            <p class="text-lg text-gold-400 mb-8">Kansas City Area</p>
 
+            <!-- Key Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-                <div class="bg-navy-700 rounded-lg p-5 border border-white/5"><p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Type</p><p class="text-lg font-semibold text-gold-400">New Acquisition (4 Buildings)</p></div>
-
+                <div class="bg-navy-700 rounded-lg p-5 border border-white/5">
+                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Type</p>
+                    <p class="text-lg font-semibold text-gold-400">Retail</p>
+                </div>
+                <div class="bg-navy-700 rounded-lg p-5 border border-white/5">
+                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Buildings</p>
+                    <p class="text-lg font-semibold text-gold-400">4</p>
+                </div>
+                <div class="bg-navy-700 rounded-lg p-5 border border-white/5">
+                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Market</p>
+                    <p class="text-lg font-semibold text-gold-400">Kansas City</p>
+                </div>
+                <div class="bg-navy-700 rounded-lg p-5 border border-white/5">
+                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Lease Structure</p>
+                    <p class="text-lg font-semibold text-gold-400">NNN</p>
+                </div>
             </div>
 
-            <div class="prose prose-invert max-w-none">
-                <p class="text-gray-300 text-lg leading-relaxed">A portfolio of 4 buildings representing a strategic expansion of RG Capital Partners' Kansas City holdings. Details coming soon.</p>
+            <!-- Description -->
+            <div class="prose prose-invert max-w-none space-y-5">
+                <h2 class="text-2xl font-bold text-white">Investment Overview</h2>
+                <p class="text-gray-300 text-lg leading-relaxed">Clint Drive is an assemblage of four small retail buildings located in the Belton, Missouri sub-market of Kansas City. The portfolio consists of multi-tenant strip retail properties with a diversified tenant mix including national and regional service-oriented businesses.</p>
+
+                <p class="text-gray-300 text-lg leading-relaxed">The business plan centers on renewing leases on true triple-net (NNN) terms and controlling operating expenses to return steady, predictable cash flows to our partners. By shifting expenses to tenants through NNN structures and actively managing renewals, the portfolio is positioned to deliver stable income with minimal landlord-side exposure.</p>
+
+                <h2 class="text-2xl font-bold text-white mt-10">Strategy</h2>
+                <div class="grid md:grid-cols-2 gap-6 not-prose">
+                    <div class="bg-navy-700/50 rounded-lg p-6 border border-white/5">
+                        <div class="text-gold-400 text-2xl mb-3">📋</div>
+                        <h3 class="font-semibold text-white mb-2">NNN Lease Renewals</h3>
+                        <p class="text-sm text-gray-400">Transition existing tenants to true triple-net lease structures, passing through property taxes, insurance, and maintenance costs to tenants.</p>
+                    </div>
+                    <div class="bg-navy-700/50 rounded-lg p-6 border border-white/5">
+                        <div class="text-gold-400 text-2xl mb-3">📊</div>
+                        <h3 class="font-semibold text-white mb-2">Expense Control</h3>
+                        <p class="text-sm text-gray-400">Actively manage operating expenses and vendor contracts to maximize net operating income and protect investor returns.</p>
+                    </div>
+                    <div class="bg-navy-700/50 rounded-lg p-6 border border-white/5">
+                        <div class="text-gold-400 text-2xl mb-3">💰</div>
+                        <h3 class="font-semibold text-white mb-2">Steady Cash Flow</h3>
+                        <p class="text-sm text-gray-400">Deliver consistent, predictable distributions to partners through stabilized occupancy and net-lease income streams.</p>
+                    </div>
+                    <div class="bg-navy-700/50 rounded-lg p-6 border border-white/5">
+                        <div class="text-gold-400 text-2xl mb-3">📍</div>
+                        <h3 class="font-semibold text-white mb-2">Belton Sub-Market</h3>
+                        <p class="text-sm text-gray-400">Strategic location in the growing Belton corridor of the KC metro, with proximity to major retail corridors and residential growth.</p>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-white mt-10">Location</h2>
+                <p class="text-gray-300 text-lg leading-relaxed">8413–8425 Clint Drive sits in Belton, Missouri — a growing suburb in the southern Kansas City metropolitan area. The property benefits from strong local demographics, proximity to I-49, and a stable mix of retail and service tenants serving the surrounding residential community.</p>
+            </div>
+
+            <!-- Map -->
+            <div class="mt-10 rounded-lg overflow-hidden border border-white/5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.5!2d-94.5316!3d38.8125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e5a2ed4af1e7%3A0x0!2s8413+Clint+Dr%2C+Belton%2C+MO+64012!5e0!3m2!1sen!2sus!4v1" width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"></iframe>
             </div>
 
             <div class="mt-12 pt-8 border-t border-white/5">
