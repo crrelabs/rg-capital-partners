@@ -31,6 +31,8 @@
         .hero-gradient { background: linear-gradient(135deg, #0a0f1a 0%, #1a2332 50%, #0a0f1a 100%); }
         .stat-card { transition: transform 0.2s; }
         .stat-card:hover { transform: translateY(-2px); }
+        .photo-grid img { transition: transform 0.3s; }
+        .photo-grid img:hover { transform: scale(1.02); }
     </style>
 </head>
 <body class="bg-navy-900 text-gray-100 font-sans">
@@ -41,9 +43,9 @@
             <a href="../index.html"><img src="../assets/images/logo.png" alt="RG Capital Partners" class="h-8"></a>
             <div class="flex items-center gap-6 text-sm font-medium text-gray-300">
                 <a href="#overview" class="hover:text-gold-400 transition hidden md:inline">Overview</a>
+                <a href="#value-add" class="hover:text-gold-400 transition hidden md:inline">Value-Add</a>
                 <a href="#catalyst" class="hover:text-gold-400 transition hidden md:inline">Growth Catalyst</a>
                 <a href="#financials" class="hover:text-gold-400 transition hidden md:inline">Financials</a>
-                <a href="#tenants" class="hover:text-gold-400 transition hidden md:inline">Tenants</a>
                 <a href="#returns" class="hover:text-gold-400 transition hidden md:inline">Returns</a>
                 <a href="#team" class="hover:text-gold-400 transition hidden md:inline">Team</a>
                 <a href="../contact.html" class="ml-2 px-5 py-2 bg-gold-500 text-navy-900 font-semibold rounded hover:bg-gold-400 transition">
@@ -53,21 +55,18 @@
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero-gradient pt-32 pb-16 md:pt-44 md:pb-24 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <p class="text-gold-400 tracking-[0.25em] uppercase text-sm font-semibold mb-6">Investment Opportunity</p>
-            <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4">Pine Island Plaza</h1>
-            <p class="text-xl md:text-2xl text-gold-400/80 font-light mb-4">Multi-Tenant Retail Center · Plantation, FL</p>
-            <p class="text-base text-gray-500 mb-8">1806–1856 N Pine Island Road, Plantation, FL 33322</p>
-            <p class="text-lg text-gray-400 max-w-3xl mx-auto mb-10">
-                A stabilized 11,041 SF multi-tenant retail strip center in Broward County with significant rent upside, 
-                favorable seller financing, and a transformative 512-unit mixed-use development breaking ground directly 
-                behind the property — creating a once-in-a-cycle demand catalyst for commercially zoned assets in the immediate area.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.html" class="px-8 py-3.5 bg-gold-500 text-navy-900 font-semibold rounded hover:bg-gold-400 transition">Request Investment Package</a>
-                <a href="#overview" class="px-8 py-3.5 border border-white/20 text-gray-200 font-semibold rounded hover:border-gold-400 hover:text-gold-400 transition">Learn More</a>
+    <!-- Hero with Photo -->
+    <section class="relative pt-16">
+        <div class="w-full h-[50vh] md:h-[60vh] relative overflow-hidden">
+            <img src="images/hero.jpg" alt="Pine Island Plaza — Full Building Facade" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/60 to-navy-900/20"></div>
+            <div class="absolute bottom-0 left-0 right-0 px-6 pb-12 md:pb-16">
+                <div class="max-w-5xl mx-auto">
+                    <p class="text-gold-400 tracking-[0.25em] uppercase text-sm font-semibold mb-4">Value-Add Investment Opportunity</p>
+                    <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-3">Pine Island Plaza</h1>
+                    <p class="text-xl md:text-2xl text-gold-400/80 font-light mb-2">Multi-Tenant Retail Center · Plantation, FL</p>
+                    <p class="text-base text-gray-400">1806–1856 N Pine Island Road, Plantation, FL 33322</p>
+                </div>
             </div>
         </div>
     </section>
@@ -92,8 +91,8 @@
                 <p class="text-sm text-gray-400 mt-1">Target IRR (7-Yr)</p>
             </div>
             <div class="stat-card">
-                <p class="text-3xl md:text-4xl font-bold text-gold-400">11,041</p>
-                <p class="text-sm text-gray-400 mt-1">Rentable SF</p>
+                <p class="text-3xl md:text-4xl font-bold text-gold-400">7%</p>
+                <p class="text-sm text-gray-400 mt-1">LP Preferred Return</p>
             </div>
         </div>
     </section>
@@ -105,82 +104,115 @@
             <h2 class="font-serif text-3xl md:text-4xl font-bold mb-8">Why Pine Island Plaza?</h2>
             
             <p class="text-gray-400 text-lg mb-12 max-w-3xl">
-                Pine Island Plaza is a well-located, cash-flowing retail strip center with embedded rent upside, 
-                seller-financed debt at favorable terms, and a massive incoming development that will fundamentally 
-                reshape demand for commercial space in this corridor.
+                Pine Island Plaza is a value-add acquisition of an 11,041 SF multi-tenant retail strip center in Broward County. 
+                The property has significant embedded rent upside, deferred maintenance that we will address through a comprehensive 
+                capital improvement program, and a transformative 512-unit mixed-use development breaking ground directly behind 
+                the property — creating a once-in-a-cycle demand catalyst for commercially zoned assets in the immediate area.
             </p>
 
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                    <div class="text-gold-400 text-2xl mb-3">🔨</div>
+                    <h3 class="text-lg font-semibold mb-2">Value-Add Through Stabilization</h3>
+                    <p class="text-gray-400 text-sm">A $342K capital improvement program — new roof, parking lot resurfacing, facade renovation, and landscape upgrades — will transform the property's curb appeal, attract higher-quality tenants, and justify market-rate rents.</p>
+                </div>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
                     <div class="text-gold-400 text-2xl mb-3">📈</div>
                     <h3 class="text-lg font-semibold mb-2">Significant Rent Upside</h3>
-                    <p class="text-gray-400 text-sm">Several tenants are paying well below the $24/SF market rate — including one at just $6/SF. Marking rents to market on lease rollovers and filling two vacant units drives meaningful NOI growth without capital-intensive improvements.</p>
+                    <p class="text-gray-400 text-sm">Several tenants are paying well below the $24/SF market rate — including one at just $6/SF. Marking rents to market on lease rollovers and filling two vacant units drives meaningful NOI growth.</p>
                 </div>
                 <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
                     <div class="text-gold-400 text-2xl mb-3">🏗️</div>
                     <h3 class="text-lg font-semibold mb-2">512-Unit Development Catalyst</h3>
-                    <p class="text-gray-400 text-sm">Plantation City Center — a 512-unit, 25,000 SF retail mixed-use project by Related Group and BH Group — has been approved directly behind the property. This adds hundreds of households and retail foot traffic to the immediate trade area.</p>
+                    <p class="text-gray-400 text-sm">Plantation City Center — a 512-unit, 25,000 SF retail mixed-use project by Related Group and BH Group — has been approved directly behind the property, adding hundreds of households to the trade area.</p>
                 </div>
                 <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
                     <div class="text-gold-400 text-2xl mb-3">💰</div>
                     <h3 class="text-lg font-semibold mb-2">Seller Financing — 5.5% I/O</h3>
-                    <p class="text-gray-400 text-sm">$2.2M seller carry at 5.5% interest-only covers 65% of the purchase price — eliminating traditional bank financing friction, locking in predictable debt service at $121K/year, and maximizing cash-on-cash returns from Day 1.</p>
-                </div>
-                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
-                    <div class="text-gold-400 text-2xl mb-3">🛡️</div>
-                    <h3 class="text-lg font-semibold mb-2">Diversified Tenant Base</h3>
-                    <p class="text-gray-400 text-sm">Nine active tenants across medical, insurance, salon, distribution, and service sectors — no single tenant exceeds 29% of rental income. NNN reimbursements shift operating expenses to tenants, protecting margins.</p>
+                    <p class="text-gray-400 text-sm">$2.2M seller carry at 5.5% interest-only covers 65% of the purchase price — locking in predictable debt service at $121K/year and maximizing cash-on-cash returns from Day 1.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Growth Catalyst -->
-    <section id="catalyst" class="py-20 px-6 bg-navy-800 border-y border-white/5">
+    <!-- Property Photos -->
+    <section class="py-12 px-6 bg-navy-800 border-y border-white/5">
+        <div class="max-w-6xl mx-auto photo-grid">
+            <div class="grid md:grid-cols-3 gap-3">
+                <div class="md:col-span-2 md:row-span-2">
+                    <img src="images/entrance.jpg" alt="Pine Island Plaza — Monument Sign & Entrance" class="w-full h-full object-cover rounded-lg">
+                </div>
+                <div>
+                    <img src="images/storefronts.jpg" alt="Pine Island Plaza — Building Facade" class="w-full h-full object-cover rounded-lg">
+                </div>
+                <div>
+                    <img src="images/detail.jpg" alt="Pine Island Plaza — Tenant Storefronts" class="w-full h-full object-cover rounded-lg">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-3 mt-3">
+                <img src="images/aerial-top.jpg" alt="Pine Island Plaza — Aerial View" class="w-full h-64 object-cover rounded-lg">
+                <img src="images/aerial-angle.jpg" alt="Pine Island Plaza — Aerial Context" class="w-full h-64 object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Value-Add / CapEx -->
+    <section id="value-add" class="py-20 px-6">
         <div class="max-w-5xl mx-auto">
-            <p class="text-gold-400 tracking-[0.2em] uppercase text-xs font-semibold mb-3">Growth Catalyst</p>
-            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-8">Plantation City Center</h2>
-            <p class="text-gray-400 text-lg mb-10 max-w-3xl">
-                A transformative mixed-use development by <strong class="text-gray-200">Related Group</strong> and 
-                <strong class="text-gray-200">BH Group</strong> — two of South Florida's most prominent developers — 
-                has been approved on the former AT&T training campus at 8601 W Sunrise Boulevard, directly adjacent to Pine Island Plaza.
+            <p class="text-gold-400 tracking-[0.2em] uppercase text-xs font-semibold mb-3">Value-Add Strategy</p>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-8">Capital Improvement Program</h2>
+            <p class="text-gray-400 text-lg mb-12 max-w-3xl">
+                A comprehensive $342,000 CapEx program — funded from the equity raise — will address deferred maintenance, 
+                dramatically improve curb appeal and visibility from Pine Island Road, and position the property to command 
+                market-rate rents as the surrounding area densifies.
             </p>
 
-            <div class="grid md:grid-cols-3 gap-6 mb-10">
-                <div class="bg-navy-700 border border-white/5 rounded-lg p-6 text-center">
-                    <p class="text-3xl font-bold text-gold-400 mb-2">512</p>
-                    <p class="text-sm text-gray-400">Residential Units</p>
-                    <p class="text-xs text-gray-500 mt-1">Studios, 1-3BR apartments, townhomes</p>
+            <div class="grid md:grid-cols-2 gap-6 mb-12">
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-400">🏠</div>
+                        <h3 class="text-lg font-semibold">New Roof</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm">Full roof replacement to eliminate deferred maintenance, reduce insurance costs, and provide 20+ year protection for tenants and the structure.</p>
                 </div>
-                <div class="bg-navy-700 border border-white/5 rounded-lg p-6 text-center">
-                    <p class="text-3xl font-bold text-gold-400 mb-2">25,000</p>
-                    <p class="text-sm text-gray-400">SF of New Retail</p>
-                    <p class="text-xs text-gray-500 mt-1">Shops, boutiques, galleries, dining</p>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-400">🅿️</div>
+                        <h3 class="text-lg font-semibold">Parking Lot Resurfacing</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm">Complete resurfacing and restriping of the parking lot to improve first impressions, tenant satisfaction, and comply with ADA standards.</p>
                 </div>
-                <div class="bg-navy-700 border border-white/5 rounded-lg p-6 text-center">
-                    <p class="text-3xl font-bold text-gold-400 mb-2">14</p>
-                    <p class="text-sm text-gray-400">Acres</p>
-                    <p class="text-xs text-gray-500 mt-1">Designed by Arquitectonica</p>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-400">🌳</div>
+                        <h3 class="text-lg font-semibold">Landscaping & Tree Trimming</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm">Significant landscaping overhaul and tree trimming to dramatically improve visibility from Pine Island Road — the property's primary traffic artery and source of drive-by exposure.</p>
+                </div>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-400">🎨</div>
+                        <h3 class="text-lg font-semibold">Paint & Stucco — Facade Renovation</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm">Fresh paint and stucco work across the entire facade to modernize the building's appearance, improve tenant pride of place, and attract higher-caliber tenants at market rents.</p>
                 </div>
             </div>
 
-            <div class="bg-navy-900/50 border border-white/5 rounded-lg p-6">
-                <h3 class="text-lg font-semibold text-gold-400 mb-4">What This Means for Pine Island Plaza</h3>
-                <ul class="space-y-3 text-gray-400 text-sm">
-                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Density injection:</strong> 512 new households within walking distance creates immediate demand for local services — medical, salon, insurance, dining — exactly the tenant mix Pine Island Plaza already serves.</li>
-                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Rent compression:</strong> As foot traffic and population density increase, market rents for commercially zoned properties in the corridor will rise — accelerating our mark-to-market strategy.</li>
-                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Vacancy absorption:</strong> New residents need services. Our two vacant units (600 SF) become easier to fill at higher rents as the development takes shape.</li>
-                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Cap rate compression on exit:</strong> An institutional-quality mixed-use development raises the profile of the entire trade area, attracting more sophisticated buyers willing to pay lower cap rates on stabilized retail.</li>
-                </ul>
+            <div class="bg-navy-800 border border-gold-500/20 rounded-lg p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-semibold text-gold-400">Total CapEx Budget</h3>
+                    <span class="text-2xl font-bold text-gold-400">$342,000</span>
+                </div>
+                <p class="text-gray-400 text-sm">Funded entirely from the equity raise as working capital reserves. No additional capital calls required. These improvements are expected to be completed within the first 12 months of ownership, positioning the property for accelerated rent growth and tenant retention.</p>
             </div>
         </div>
     </section>
 
-    <!-- Value-Add Strategy -->
-    <section class="py-20 px-6">
+    <!-- Strategy -->
+    <section class="py-20 px-6 bg-navy-800 border-y border-white/5">
         <div class="max-w-5xl mx-auto">
             <p class="text-gold-400 tracking-[0.2em] uppercase text-xs font-semibold mb-3">Investment Strategy</p>
-            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-12">Acquire. Stabilize. Grow. Exit.</h2>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-12">Acquire. Improve. Stabilize. Exit.</h2>
 
             <div class="grid md:grid-cols-4 gap-6 mb-16">
                 <div class="text-center">
@@ -190,18 +222,18 @@
                 </div>
                 <div class="text-center">
                     <div class="w-16 h-16 bg-gold-500 text-navy-900 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
-                    <h3 class="font-semibold mb-2">Stabilize</h3>
-                    <p class="text-gray-400 text-sm">Lease two vacant units at market rent, convert remaining tenants to NNN with 3% annual escalators</p>
+                    <h3 class="font-semibold mb-2">Improve</h3>
+                    <p class="text-gray-400 text-sm">Execute $342K CapEx program — new roof, parking lot, landscaping, and facade renovation within Year 1</p>
                 </div>
                 <div class="text-center">
                     <div class="w-16 h-16 bg-gold-500 text-navy-900 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-                    <h3 class="font-semibold mb-2">Grow</h3>
-                    <p class="text-gray-400 text-sm">Mark below-market rents to $24/SF on lease rollovers; benefit from Plantation City Center density</p>
+                    <h3 class="font-semibold mb-2">Stabilize</h3>
+                    <p class="text-gray-400 text-sm">Lease vacant units, mark below-market rents to $24/SF, convert to NNN with 3% annual escalators</p>
                 </div>
                 <div class="text-center">
                     <div class="w-16 h-16 bg-gold-500 text-navy-900 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
                     <h3 class="font-semibold mb-2">Exit Year 7</h3>
-                    <p class="text-gray-400 text-sm">Sell stabilized asset at compressed cap rate, targeting 16.7% IRR to investors</p>
+                    <p class="text-gray-400 text-sm">Sell stabilized asset at compressed cap rate as Plantation City Center drives area demand</p>
                 </div>
             </div>
 
@@ -212,7 +244,7 @@
                         <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> HMG Clean Out Inc paying <strong class="text-gray-200">$6/SF</strong> vs $24/SF market — 300% upside at rollover</li>
                         <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> Home Makers Companions at <strong class="text-gray-200">$16/SF</strong> — 50% below market, month-to-month</li>
                         <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> LeMacks Salon at <strong class="text-gray-200">$20/SF</strong> — month-to-month, room to push</li>
-                        <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> Two vacant units (600 SF) ready for immediate lease-up at market</li>
+                        <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> Two vacant units (600 SF) ready for lease-up at market</li>
                         <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> Multiple MTM tenants allow near-term rent resets without waiting for lease expiry</li>
                     </ul>
                 </div>
@@ -226,6 +258,55 @@
                         <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> Rovira PM manages in-house — no third-party dependency</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Growth Catalyst -->
+    <section id="catalyst" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <p class="text-gold-400 tracking-[0.2em] uppercase text-xs font-semibold mb-3">Growth Catalyst</p>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-8">Plantation City Center</h2>
+            <p class="text-gray-400 text-lg mb-10 max-w-3xl">
+                A transformative mixed-use development by <strong class="text-gray-200">Related Group</strong> and 
+                <strong class="text-gray-200">BH Group</strong> — two of South Florida's most prominent developers — 
+                has been approved on the former AT&T training campus at 8601 W Sunrise Boulevard, directly adjacent to Pine Island Plaza.
+            </p>
+
+            <!-- Rendering -->
+            <div class="mb-10 rounded-lg overflow-hidden border border-white/10">
+                <img src="images/plantation-city-center.jpg" alt="Plantation City Center — Architectural Rendering by Arquitectonica" class="w-full">
+                <div class="bg-navy-800 px-4 py-2">
+                    <p class="text-xs text-gray-500">Plantation City Center rendering · Designed by Arquitectonica · Image: Florida YIMBY</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6 text-center">
+                    <p class="text-3xl font-bold text-gold-400 mb-2">512</p>
+                    <p class="text-sm text-gray-400">Residential Units</p>
+                    <p class="text-xs text-gray-500 mt-1">Studios, 1-3BR apartments & townhomes</p>
+                </div>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6 text-center">
+                    <p class="text-3xl font-bold text-gold-400 mb-2">25,000</p>
+                    <p class="text-sm text-gray-400">SF of New Retail</p>
+                    <p class="text-xs text-gray-500 mt-1">Shops, boutiques, galleries, dining</p>
+                </div>
+                <div class="bg-navy-800 border border-white/5 rounded-lg p-6 text-center">
+                    <p class="text-3xl font-bold text-gold-400 mb-2">14</p>
+                    <p class="text-sm text-gray-400">Acres</p>
+                    <p class="text-xs text-gray-500 mt-1">Approved Dec 2024 · Arquitectonica</p>
+                </div>
+            </div>
+
+            <div class="bg-navy-800 border border-white/5 rounded-lg p-6">
+                <h3 class="text-lg font-semibold text-gold-400 mb-4">What This Means for Pine Island Plaza</h3>
+                <ul class="space-y-3 text-gray-400 text-sm">
+                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Density injection:</strong> 512 new households within walking distance creates immediate demand for local services — medical, salon, insurance, dining — exactly the tenant mix Pine Island Plaza already serves.</li>
+                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Rent compression:</strong> As foot traffic and population density increase, market rents for commercially zoned properties in the corridor will rise — accelerating our mark-to-market strategy.</li>
+                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Vacancy absorption:</strong> New residents need services. Our two vacant units become easier to fill at higher rents as the development takes shape.</li>
+                    <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">◆</span> <strong class="text-gray-200">Cap rate compression on exit:</strong> An institutional-quality mixed-use development raises the profile of the entire trade area, attracting more sophisticated buyers willing to pay lower cap rates on stabilized retail.</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -251,7 +332,7 @@
                         <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Purchase Price</span><span class="font-medium">$3,400,000</span></div>
                         <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Closing Costs</span><span class="font-medium">$40,000</span></div>
                         <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Acquisition Fee (2%)</span><span class="font-medium">$68,000</span></div>
-                        <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Working Capital Reserves</span><span class="font-medium">$342,000</span></div>
+                        <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Working Capital / CapEx Reserves</span><span class="font-medium">$342,000</span></div>
                         <div class="flex justify-between border-b border-gold-500/30 pb-2 pt-1"><span class="text-gray-200 font-semibold">Total</span><span class="font-bold text-gold-400">$3,850,000</span></div>
                     </div>
                 </div>
@@ -521,6 +602,7 @@
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Sponsor</span><span class="font-medium">RG Capital Partners LLC</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Purchase Price</span><span class="font-medium">$3,400,000</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Total Equity Required</span><span class="font-medium">$1,650,000</span></div>
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">CapEx Budget</span><span class="font-medium">$342,000</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Hold Period</span><span class="font-medium">7 Years</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Property Management</span><span class="font-medium">Rovira PM (in-house)</span></div>
                 </div>
@@ -529,6 +611,7 @@
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Loan Amount</span><span class="font-medium">$2,200,000</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Going-In Cap Rate</span><span class="font-medium">6.6%</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Year 1 Cash-on-Cash</span><span class="font-medium">6.3%</span></div>
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">LP Preferred Return</span><span class="font-medium text-gold-400">7%</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Target IRR (Base Case)</span><span class="font-medium text-gold-400">16.7%</span></div>
                     <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">Asset Management Fee</span><span class="font-medium">2% of EGI</span></div>
                 </div>
