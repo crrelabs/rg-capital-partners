@@ -442,7 +442,7 @@
         <div class="max-w-5xl mx-auto">
             <p class="text-gold-400 tracking-[0.2em] uppercase text-xs font-semibold mb-3">Tenant Overview</p>
             <h2 class="font-serif text-3xl md:text-4xl font-bold mb-8">Current Rent Roll</h2>
-            <p class="text-gray-400 mb-8">9 of 11 units occupied · Market rent: $24/SF · All rents are gross · 3% annual escalators on new leases</p>
+            <p class="text-gray-400 mb-8">9 of 11 units occupied · All current rents are gross · Proforma at $31/SF (base rent + NNN) · 3% annual escalators on new leases</p>
 
             <div class="overflow-x-auto">
                 <table class="w-full text-sm">
@@ -451,8 +451,9 @@
                             <th class="text-left py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider">Unit</th>
                             <th class="text-left py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider">Tenant</th>
                             <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider">SF</th>
-                            <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider">$/SF</th>
-                            <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider">Monthly</th>
+                            <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider whitespace-nowrap">Current Rent</th>
+                            <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider whitespace-nowrap">Proforma Rent</th>
+                            <th class="text-right py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider whitespace-nowrap">% Increase</th>
                             <th class="text-left py-3 px-3 text-gray-400 font-semibold uppercase text-xs tracking-wider whitespace-nowrap">Status</th>
                         </tr>
                     </thead>
@@ -461,72 +462,81 @@
                             <td class="py-3 px-3">1806</td>
                             <td class="py-3 px-3">PMC Plantation LLC</td>
                             <td class="py-3 px-3 text-right">3,150</td>
-                            <td class="py-3 px-3 text-right">$28.83</td>
                             <td class="py-3 px-3 text-right">$7,569</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$8,138</td>
+                            <td class="py-3 px-3 text-right text-green-400">+7.5%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1846</td>
                             <td class="py-3 px-3">US Rx Distribution LLC</td>
                             <td class="py-3 px-3 text-right">1,200</td>
-                            <td class="py-3 px-3 text-right">$26.69</td>
                             <td class="py-3 px-3 text-right">$2,669</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$3,100</td>
+                            <td class="py-3 px-3 text-right text-green-400">+16.1%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1830</td>
                             <td class="py-3 px-3">Family Therapy Providers</td>
                             <td class="py-3 px-3 text-right">789</td>
-                            <td class="py-3 px-3 text-right">$23.46</td>
                             <td class="py-3 px-3 text-right">$1,543</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$2,038</td>
+                            <td class="py-3 px-3 text-right text-green-400">+32.1%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1856</td>
                             <td class="py-3 px-3">Soothing Oasis Massage LLC</td>
                             <td class="py-3 px-3 text-right">1,009</td>
-                            <td class="py-3 px-3 text-right">$21.84</td>
                             <td class="py-3 px-3 text-right">$1,836</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$2,607</td>
+                            <td class="py-3 px-3 text-right text-green-400">+42.0%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1836</td>
                             <td class="py-3 px-3">America Enroll Insurance</td>
                             <td class="py-3 px-3 text-right">750</td>
-                            <td class="py-3 px-3 text-right">$21.91</td>
                             <td class="py-3 px-3 text-right">$1,369</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$1,938</td>
+                            <td class="py-3 px-3 text-right text-green-400">+41.6%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1820</td>
                             <td class="py-3 px-3">954 Spot LLC</td>
                             <td class="py-3 px-3 text-right">952</td>
-                            <td class="py-3 px-3 text-right">$21.30</td>
                             <td class="py-3 px-3 text-right">$1,690</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$2,459</td>
+                            <td class="py-3 px-3 text-right text-green-400">+45.5%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1850</td>
                             <td class="py-3 px-3">LeMacks Salon</td>
                             <td class="py-3 px-3 text-right">1,041</td>
-                            <td class="py-3 px-3 text-right text-yellow-400">$19.86</td>
                             <td class="py-3 px-3 text-right">$1,723</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$2,689</td>
+                            <td class="py-3 px-3 text-right text-green-400">+56.1%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1834</td>
                             <td class="py-3 px-3">Home Makers Companions</td>
                             <td class="py-3 px-3 text-right">550</td>
-                            <td class="py-3 px-3 text-right text-yellow-400">$16.19</td>
                             <td class="py-3 px-3 text-right">$1,052</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$1,421</td>
+                            <td class="py-3 px-3 text-right text-green-400">+35.1%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5">
                             <td class="py-3 px-3">1840</td>
                             <td class="py-3 px-3">HMG Clean Out Inc</td>
                             <td class="py-3 px-3 text-right">1,000</td>
-                            <td class="py-3 px-3 text-right text-red-400">$6.00</td>
                             <td class="py-3 px-3 text-right">$500</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$2,583</td>
+                            <td class="py-3 px-3 text-right text-green-400">+417%</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-blue-400 text-xs font-medium">MTM</span></td>
                         </tr>
                         <tr class="border-b border-white/5 opacity-60">
@@ -534,7 +544,8 @@
                             <td class="py-3 px-3 italic">Vacant</td>
                             <td class="py-3 px-3 text-right">300</td>
                             <td class="py-3 px-3 text-right text-gray-500">—</td>
-                            <td class="py-3 px-3 text-right text-gray-500">—</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$775</td>
+                            <td class="py-3 px-3 text-right text-green-400">New</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-red-400 text-xs font-medium">Vacant</span></td>
                         </tr>
                         <tr class="border-b border-white/5 opacity-60">
@@ -542,7 +553,8 @@
                             <td class="py-3 px-3 italic">Vacant</td>
                             <td class="py-3 px-3 text-right">300</td>
                             <td class="py-3 px-3 text-right text-gray-500">—</td>
-                            <td class="py-3 px-3 text-right text-gray-500">—</td>
+                            <td class="py-3 px-3 text-right text-gold-400">$775</td>
+                            <td class="py-3 px-3 text-right text-green-400">New</td>
                             <td class="py-3 px-3 whitespace-nowrap"><span class="text-red-400 text-xs font-medium">Vacant</span></td>
                         </tr>
                     </tbody>
@@ -550,8 +562,9 @@
                         <tr class="border-t border-gold-500/30">
                             <td class="py-3 px-3 font-semibold" colspan="2">Total</td>
                             <td class="py-3 px-3 text-right font-semibold">11,041</td>
-                            <td class="py-3 px-3 text-right"></td>
-                            <td class="py-3 px-3 text-right font-semibold text-gold-400">$19,951</td>
+                            <td class="py-3 px-3 text-right font-semibold text-gray-200">$19,951</td>
+                            <td class="py-3 px-3 text-right font-semibold text-gold-400">$28,523</td>
+                            <td class="py-3 px-3 text-right font-semibold text-green-400">+43.0%</td>
                             <td class="py-3 px-3"></td>
                         </tr>
                     </tfoot>
