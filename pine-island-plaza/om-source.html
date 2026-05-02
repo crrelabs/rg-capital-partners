@@ -817,7 +817,7 @@ tr.highlight td { font-weight: 600; }
     <div class="page-inner">
         <div class="section-label">Tenant Overview</div>
         <div class="section-title">Current Rent Roll</div>
-        <div class="rent-note">9 of 11 units occupied · All current rents are gross (includes utilities & CAM) · Market rent: $25.00/SF NNN · 5% annual escalators</div>
+        <div class="rent-note">9 of 11 units occupied · All current rents are gross · Proforma at $25/SF NNN (base rent + expense recovery) · 5% annual escalators</div>
 
         <table style="margin-bottom: 8px;">
             <thead>
@@ -825,74 +825,69 @@ tr.highlight td { font-weight: 600; }
                     <th>Unit</th>
                     <th>Tenant</th>
                     <th class="right">SF</th>
-                    <th class="right">$/SF</th>
-                    <th class="right">Monthly</th>
-                    <th class="right">Annual</th>
-                    <th>Escal.</th>
-                    <th>Lease Term</th>
+                    <th class="right">Current Rent</th>
+                    <th class="right">Proforma Rent</th>
+                    <th class="right">Annual Upside</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1806</td><td>PMC Plantation LLC</td><td class="right">3,150</td><td class="right">$28.83</td>
-                    <td class="right">$7,569</td><td class="right">$90,830</td><td>3%</td><td><span style="color:#facc15;">Exp 4/30/26</span></td>
+                    <td>1806</td><td>PMC Plantation LLC</td><td class="right">3,150</td>
+                    <td class="right">$7,569</td><td class="right gold">$9,369</td><td class="right green">+$21,600</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1846</td><td>US Rx Distribution LLC</td><td class="right">1,200</td><td class="right">$26.69</td>
-                    <td class="right">$2,669</td><td class="right">$32,028</td><td>3%</td><td><span style="color:#facc15;">Exp 5/31/26</span></td>
+                    <td>1846</td><td>US Rx Distribution LLC</td><td class="right">1,200</td>
+                    <td class="right">$2,669</td><td class="right gold">$3,569</td><td class="right green">+$10,800</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1856</td><td>Soothing Oasis Massage</td><td class="right">1,009</td><td class="right">$21.84</td>
-                    <td class="right">$1,836</td><td class="right">$22,033</td><td>3%</td><td><span style="color:#facc15;">Exp 5/24/26</span></td>
+                    <td>1830</td><td>Family Therapy Providers</td><td class="right">789</td>
+                    <td class="right">$1,543</td><td class="right gold">$2,346</td><td class="right green">+$9,636</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1850</td><td>LeMacks Salon</td><td class="right">1,041</td><td class="right">$19.86</td>
-                    <td class="right">$1,723</td><td class="right">$20,677</td><td>—</td><td><span style="color:#60a5fa;">MTM</span></td>
+                    <td>1856</td><td>Soothing Oasis Massage</td><td class="right">1,009</td>
+                    <td class="right">$1,836</td><td class="right gold">$3,000</td><td class="right green">+$13,968</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1840</td><td>HMG Clean Out Inc</td><td class="right">1,000</td><td class="right" style="color:#f87171;">$6.00</td>
-                    <td class="right">$500</td><td class="right">$6,000</td><td>3%</td><td><span style="color:#facc15;">Exp 10/31/25</span></td>
+                    <td>1836</td><td>America Enroll Insurance</td><td class="right">750</td>
+                    <td class="right">$1,369</td><td class="right gold">$2,231</td><td class="right green">+$10,344</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1830</td><td>Family Therapy Providers</td><td class="right">789</td><td class="right">$23.46</td>
-                    <td class="right">$1,543</td><td class="right">$18,513</td><td>—</td><td><span style="color:#60a5fa;">MTM</span></td>
+                    <td>1820</td><td>954 Spot LLC</td><td class="right">952</td>
+                    <td class="right">$1,690</td><td class="right gold">$2,831</td><td class="right green">+$13,692</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1820</td><td>954 Spot LLC</td><td class="right">952</td><td class="right">$21.30</td>
-                    <td class="right">$1,690</td><td class="right">$20,278</td><td>—</td><td><span style="color:#60a5fa;">MTM</span></td>
+                    <td>1850</td><td>LeMacks Salon</td><td class="right">1,041</td>
+                    <td class="right">$1,723</td><td class="right gold">$3,095</td><td class="right green">+$16,464</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1836</td><td>America Enroll Insurance</td><td class="right">750</td><td class="right">$21.91</td>
-                    <td class="right">$1,369</td><td class="right">$16,430</td><td>—</td><td><span style="color:#facc15;">Exp 1/31/26</span></td>
+                    <td>1834</td><td>Home Makers Companions</td><td class="right">550</td>
+                    <td class="right">$1,052</td><td class="right gold">$1,636</td><td class="right green">+$7,008</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr>
-                    <td>1834</td><td>Home Makers Companions</td><td class="right">550</td><td class="right" style="color:#f87171;">$16.19</td>
-                    <td class="right">$1,052</td><td class="right">$12,623</td><td>3%</td><td><span style="color:#60a5fa;">MTM</span></td>
+                    <td>1840</td><td>HMG Clean Out Inc</td><td class="right">1,000</td>
+                    <td class="right">$500</td><td class="right gold">$2,974</td><td class="right green" style="font-weight:600;">+$29,688</td><td><span style="color:#60a5fa;">MTM</span></td>
                 </tr>
                 <tr style="opacity: 0.6;">
-                    <td>1816</td><td><em>Vacant</em></td><td class="right">300</td><td class="right" style="color:#6b7280;">—</td>
-                    <td class="right" style="color:#6b7280;">$0</td><td class="right" style="color:#6b7280;">$0</td><td>—</td><td><span style="color:#f87171;">Vacant</span></td>
+                    <td>1816</td><td><em>Vacant</em></td><td class="right">300</td>
+                    <td class="right" style="color:#6b7280;">$0</td><td class="right gold">$892</td><td class="right green">+$10,704</td><td><span style="color:#f87171;">Vacant</span></td>
                 </tr>
                 <tr style="opacity: 0.6;">
-                    <td>1818</td><td><em>Vacant (Leasing Office)</em></td><td class="right">300</td><td class="right" style="color:#6b7280;">—</td>
-                    <td class="right" style="color:#6b7280;">$0</td><td class="right" style="color:#6b7280;">$0</td><td>—</td><td><span style="color:#f87171;">Vacant</span></td>
+                    <td>1818</td><td><em>Vacant</em></td><td class="right">300</td>
+                    <td class="right" style="color:#6b7280;">$0</td><td class="right gold">$892</td><td class="right green">+$10,704</td><td><span style="color:#f87171;">Vacant</span></td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr style="border-top: 1px solid rgba(201,149,44,0.3);">
-                    <td colspan="2" style="font-weight: 600;">Total (11 Units)</td>
+                    <td colspan="2" style="font-weight: 600;">Total</td>
                     <td class="right" style="font-weight: 600;">11,041</td>
-                    <td class="right" style="color:#9ca3af;">$21.69 avg</td>
                     <td class="right" style="font-weight: 600;">$19,951</td>
-                    <td class="right" style="font-weight: 600;">$239,412</td>
-                    <td colspan="2"></td>
+                    <td class="right gold" style="font-weight: 600;">$32,835</td>
+                    <td class="right green" style="font-weight: 600;">+$154,608</td>
+                    <td></td>
                 </tr>
             </tfoot>
         </table>
-
-        <div class="stabilization-box">
-            <p><span class="gold" style="font-weight: 600;">Stabilization Target:</span> Convert all leases to NNN at $25.00/SF base rent + NNN reimbursements (taxes, insurance, CAM). Yr 2 proforma total income of $395,275 reflects full base rent stabilization plus $118K in NNN recovery — a 26% increase over current gross income.</p>
-        </div>
 
         <div style="margin-top: 28px;">
             <div class="section-label">Exit Analysis</div>
